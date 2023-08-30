@@ -14,7 +14,7 @@ const { chains, provider, webSocketProvider } = configureChains(
 export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
-    appName: "Sugarcane",
+    appName: "DeFi Simplicity",
     jsonRpcUrl: "https://goerli.base.org",
   },
 });

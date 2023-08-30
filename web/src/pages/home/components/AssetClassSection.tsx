@@ -34,6 +34,7 @@ const AssetClassSection: React.FC<Props> = ({
             variant="h4"
             sx={{
               fontWeight: 600,
+              color:"blue",
             }}
           >
             {title}
@@ -43,6 +44,7 @@ const AssetClassSection: React.FC<Props> = ({
               textDecoration: "underline dotted",
               cursor: "pointer",
               fontWeight: 500,
+              color:"blue",
             }}
             onClick={() => setShowVideo(true)}
           >

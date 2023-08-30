@@ -33,7 +33,7 @@ const Navbar: React.FC<{}> = () => {
   };
 
   return (
-    <AppBar position="fixed" sx={{ background: "#ddead1", color: "#4b6043" }}>
+    <AppBar position="fixed" sx={{ background: "#3a5674", color: "#3a5674" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <GrassIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
@@ -49,13 +49,13 @@ const Navbar: React.FC<{}> = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "inherit",
+              color: "white",
               textDecoration: "none",
             }}
           >
-            Sugarcane
+            DeFi Simplicity
           </Typography>
-          <GrassIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          
           <Typography
             variant="h5"
             noWrap
@@ -71,7 +71,7 @@ const Navbar: React.FC<{}> = () => {
               textDecoration: "none",
             }}
           >
-            Sugarcane
+            DeFi Simplicity
           </Typography>
           <Box
             sx={{ display: "flex", cursor: "pointer", flexGrow: 0 }}
@@ -79,7 +79,6 @@ const Navbar: React.FC<{}> = () => {
               isConnected ? handleOpenUserMenu(e) : connect();
             }}
           >
-            <AccountBalanceWalletIcon sx={{ display: "flex", mr: 1 }} />
             <Typography
               variant="body1"
               noWrap
@@ -89,7 +88,7 @@ const Navbar: React.FC<{}> = () => {
 
                 flexGrow: 1,
                 fontWeight: 500,
-                color: "inherit",
+                color: "white",
               }}
             >
               {isConnected

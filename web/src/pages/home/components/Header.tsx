@@ -11,19 +11,20 @@ const Header: React.FC<{}> = () => {
         sx={{
           textAlign: "center",
           fontWeight: 600,
+          color: "blue",
         }}
       >
-        The simplest way to BASE your assets.
+        Empowering DeFi for Everyone
       </Typography>
       <Typography
         variant="h2"
         sx={{
           textAlign: "center",
           fontWeight: 600,
+          color: "blue",
         }}
       >
-        Any chain. Your custody.
-      </Typography>
+        Simplified Access, Comprehensive Understanding      </Typography>
     </Box>
   );
 };
