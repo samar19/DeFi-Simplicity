@@ -6,6 +6,8 @@ Welcome to the DeFiSimplicity README file, where we introduce you to a groundbre
 
 DeFiSimplicity is a revolutionary decentralized finance (DeFi) platform designed to democratize access to DeFi products for the upcoming generation of web3 users. Our primary aim is to make DeFi accessible and comprehensible to all, unraveling the intricacies of DeFi and enabling everyone to harness the potential of decentralized finance with unparalleled ease.
 
+## Architecture Diagram
+![Gameplay]()
 ## Core Objectives
 
 1. **Streamlined Experience:**
